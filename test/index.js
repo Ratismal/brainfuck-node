@@ -17,7 +17,7 @@ function test(code, input) {
     console.log(`${error !== undefined ? '        Error : ' + error + '\n' : ''}       Output : ${val.output}
        Memory : ${util.inspect(val.memory)}
         Steps : ${val.steps}
-Response Time : ${Date.now() - start} ms
+Response Time : ${val.time} ms
 `);
 }
 

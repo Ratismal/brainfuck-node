@@ -6,6 +6,7 @@ There are an abundance of brainfuck libraries out there, but none of them worked
 
 ## What makes this one different?
 This library promises to
+
 1. Be fast. We can execute 1 million steps in less than 200ms.
 2. Interpret correctly. Our [ and ] operators function as they're supposed to.
 3. Take input statically instead of with stdin. This is useful for programatic usage, rather than in a CLI.
