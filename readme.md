@@ -28,5 +28,5 @@ It's that easy.
 The Brainfuck constructor takes an option argument with the following properties:
  - options.maxSteps - The maximum number of steps to execute (defaults to 1000000). Set to -1 to disable.
 
- ## License
- ISC
+## License
+ISC
