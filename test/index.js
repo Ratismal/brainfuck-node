@@ -16,12 +16,12 @@ function test(code, input) {
     console.log(`${error !== undefined ? '        Error : ' + error + '\n' : ''}       Output : ${val.output}
        Memory : ${util.inspect(val.memory)}
         Steps : ${val.steps}
-Response Time : ${Date.now() - start}
+Response Time : ${Date.now() - start} ms
 `);
 }
 
 // Hello World - Basic
-test('++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.');
+test('++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.');
 // Hello World - Input
 test(',[>,]<[<]>[.>]', 'Hello World');
 // Maximum Step Tester
