@@ -1,4 +1,5 @@
-const brainfuck = new (require('../'))();
+const Brainfuck = require('../');
+const brainfuck = new Brainfuck();
 const util = require('util');
 var times = 0;
 
